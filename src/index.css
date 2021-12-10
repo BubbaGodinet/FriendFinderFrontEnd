@@ -1,0 +1,100 @@
+body, html {
+  background-color: #F1F3FF;
+  height: 100%;
+}
+
+div#root {
+  height:100%;
+  overflow:hidden;
+  position: relative;
+  top: 120px;
+}
+
+.title {
+  text-align: center;
+  font-family: Garamond, serif;
+  font-variant: small-caps;
+  color: #434552;
+}
+
+.logo {
+  position: relative;
+  padding-bottom: -5px;
+  padding-top: 20px;
+  left: 700px;
+  width: 400px;
+  height: 90px;
+}
+
+.addGroup {
+  position: absolute;
+  left: 498px;
+  bottom: 50px;
+  font-size: 50px;
+}
+
+.addPerson {
+  position: absolute;
+  left: 1890px;
+  bottom: 50px;
+}
+
+.map {
+  border-radius: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.map-container {
+  height: 700px;
+  width: 700px;
+  padding: 50px;
+}
+
+.menu-container {
+    border-radius: 10px;
+    background-color: white;
+    width: 25%;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+   
+}
+
+.people-container {
+  border-radius: 10px;
+  background-color: white;
+  width: 25%;
+  position:fixed;
+  top:0px;
+  bottom:0px;
+  left: 1900px;
+  right:0px;
+ 
+}
+.menu-list {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.marker-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.marker-button img {
+  width: 40px;
+  height: 40px;
+}
+
